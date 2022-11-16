@@ -2057,7 +2057,7 @@ var prettyPrint;
   }
   if (!u && a) {
     /** @type {string} */
-    newNode.innerHTML = '<div class="navbar-inner"> <div class="container"> </div> </div>';
+    newNode.innerHTML = '<div class="navbar-inner"> <div class="container"> <div id="headline" class="brand"> </div> </div> </div>';
     if (!(fmt["nonavbarfixed"])) {
       document.body.insertBefore(newNode, document.body.firstChild);
     }
